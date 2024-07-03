@@ -1,0 +1,133 @@
+
+/* BODY */
+
+.container-general {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* HEADER - LOGO - NAV-WEB NAV-MOBILE*/
+
+/* HEADER - logo */ 
+
+.container-header__container-logo-nav{
+    min-height: 64px;
+    margin-left: 20px;
+}
+
+/* HEADER - logo - Original class materialize */
+
+header .circle-logo{
+    margin-left: 20px;
+}
+
+/* HEADER - nav - Original class materialize*/
+
+nav .sidenav-trigger i{
+    line-height: 64px;
+}
+
+nav .brand-logo.left {
+    left: -0.5rem;
+}
+
+.circle-logo{
+    border-radius: 100%;
+}
+
+/* HEADER - nav-mobile */
+
+.container-header__menu-image-cover-mobile{
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+/* MAIN */ 
+
+.container-principal {
+    flex: 1 0 auto;
+    height: auto;
+}
+
+/* SEARCH - INDEX - FAQ´S*/
+
+.container-principal__container-search{
+    margin: 10px;
+}
+
+/* CONTACT US - ABOUT US */
+
+.container-principal__section-container-description-contactus, .container-principal__section-container-description-aboutus, .container-form-about-us-ourmision, .container-form-about-us-ourvision{
+    text-align: justify;
+}
+
+
+
+/* FAQ´S */
+
+.container-search-faqs{
+    margin-bottom: 30px;
+}
+
+/* TBAS TERMS AND CONDITIONS - PRIVACY POLICY - MODIFYING CLASS ORGINALS TABS MATERIALIZE */
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs .tab a{
+    color: black;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: black;
+}
+
+.tabs .indicator{
+    background-color: black;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: transparent;
+}
+
+.wrap-terms-and-condition p, .wrap-privacy-policy p{
+    text-align: justify;
+}
+
+/* BOTTOM MARGIN FAQ´S - TERMS AND CONDITIONS - PRIVACY POLICY */
+
+.container-faqs, .container-tab-terms-and-conditions, .container-tab-privacy-policy{
+    margin-bottom: 40px;
+}
+
+/* DELETE MARGIN ROW - ORIGINAL CLASS MATERALIZE */ 
+
+.delete-margin-row-input, .delete-margin-row-title-faqs{
+    margin: 0;
+}
+
+/* CENTER CONTENEDOR PRINCIPAL */
+
+.container-principal__section-container-description-contactus, .container-principal__section-container-description-aboutus, .container-form-contact-us, .container-faqs, .container-search-faqs, .container-tab-terms-and-conditions, .container-tab-privacy-policy, .container-footer__section-footer{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* GENERAL FORM BUTTON - REGISTER - CONTACT US */
+
+.container-form-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */ 
+
+.container-footer__paragraph-section-myblog{
+    text-align: justify;
+}
