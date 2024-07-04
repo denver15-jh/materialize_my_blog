@@ -131,3 +131,11 @@ nav .brand-logo.left {
 .container-footer__paragraph-section-myblog{
     text-align: justify;
 }
+
+.container-footer__container-links-section-footer-links-menu li{
+    margin: 10px;
+}
+
+.container-footer__container-links-section-footer-links li{
+    margin: 10px;
+}
